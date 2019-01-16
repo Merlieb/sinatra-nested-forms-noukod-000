@@ -7,10 +7,5 @@ module FormsLab
   get '/' do
     erb :index
   end
-
-  post '/' do
-  @location = params[:location]
-  "Ain't #{@location} grand?"
-end
   end
 end
